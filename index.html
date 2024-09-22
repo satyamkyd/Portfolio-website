@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="container">
+                <div class="navbar">
+                    <div class="nav">
+                        <div><a href="Resume.html">Resume</a></div>
+                    </div>
+                    <div class="nav-items">
+                        <div><a href="projects.html">Projects</a></div>
+                        <div><a href="skills.html">Skills</a></div>
+                        <div><a href="contactme.html">Contact Me</a></div>
+                    </div>
+                </div>
+
+                <div class="hero-section">
+                    <div class="faded-text">Satyam</div>
+                    <div class="hero-section-left">
+                        <div class="hero-section-heading">Hi! Satyam</div>
+
+                        <div class="hero-section-heading hero-section-sub-heading">
+                            I am a <span class="role"></span>
+                        </div>
+
+                        <div class="hero-section-desciption">
+                            I'm a software developer and here is my portfolio website.<br>Here you will learn about my journey as a software developer.
+                        </div>
+
+                        <div class="btn-pink" id="btn">Hire me</div>
+                    </div>
+
+                    <div class="hero-section-right">
+                        <div class="user-image">
+                            <img src="Images/Satyam's new photo.jpg" alt="" width="300px">
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="project-section">
+                <h2 class="page-header"></h2>
+
+                <div class="project-container">
+                    <div class="project-card" id="">
+                        <div class="project-number"></div>
+                        <div class="project-content">
+                            <div class="project-skills-container">
+                                <img class="project-skill" src="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://kit.fontawesome.com/58aB10656e.js" crossorigin="anonymous"></script>
+        <script>
+            var typeData = new Typed(".role",{
+                strings:[
+                    "Mern Stack Developer",
+                    "Web Developer",
+                    "Coder",
+                ],
+                loop:true,
+                typeSpeed:100,
+                backSpeed:80,
+                backDelay:1000,
+            });
+        </script>
+    </body>
+</html>
