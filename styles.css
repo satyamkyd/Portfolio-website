@@ -27,6 +27,9 @@
 
     padding-top:1rem;
 }
+.nav{
+    padding-left: 2rem;
+}
 
 .nav-items{
     display:flex;
@@ -95,12 +98,12 @@ a{
 
 .role{
     color: #4e45d5;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .hero-section-sub-heading{
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 35px;
+    line-height: 35px;
 }
 
 .hero-section-description{
@@ -146,6 +149,7 @@ a{
 
 .hero-section-right{
     position:relative;
+    padding-left: 2rem;
 }
 
 .absolute{
@@ -153,7 +157,7 @@ a{
 }
 
 .user-image{
-    padding:2.5rem;
+    padding:0.8rem;
     filter:grayscale(1);
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
